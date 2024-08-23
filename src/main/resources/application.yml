@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: '@project.artifactId@'
+    version: '@project.version@'
+  kafka:
+    bootstrap:
+      servers: "localhost:9092"
